@@ -29,7 +29,7 @@ function Home() {
     },
     {
       title: "Video Editing",
-      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678391/34b8ab2c-c7a6-4cc1-bb3f-c64b764a7971_f0juzk.jpg"
+      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778679665/R_mya0gv.jpg"
     },
     {
       title: "Ad Creatives",
