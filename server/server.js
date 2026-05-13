@@ -23,7 +23,9 @@ await seedAdmin();
 app.use(express.json({ limit: "10mb" }));
 
 app.use(
-  cors()
+  cors({
+    origin: "*",
+  })
 );
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
