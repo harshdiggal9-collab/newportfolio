@@ -17,35 +17,27 @@ function Home() {
     { name: "AI Video Creation", icon: "https://img.icons8.com/fluency/96/clapperboard.png" }
   ];
   const featuredWorks = [
-    { title: "Luxury Brand Launch Film", category: "Brand Ad", thumb: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=1200&auto=format&fit=crop" },
-    { title: "High-Retention YouTube Edit", category: "YouTube Edits", thumb: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop" },
-    { title: "Cinematic Reels Campaign", category: "Reels", thumb: "https://images.unsplash.com/photo-1601506521937-0121e0c36b19?q=80&w=1200&auto=format&fit=crop" },
-    { title: "Product Motion Teaser", category: "Motion Graphics", thumb: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1200&auto=format&fit=crop" }
+    { title: "Fresh Juice", category: "Brand Ad", thumb: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678504/ChatGPT_Image_Apr_28_2026_09_22_43_AM_vby1up.png" },
+    { title: "High-Retention YouTube Edit", category: "YouTube Edits", thumb: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678505/ChatGPT_Image_Apr_27_2026_01_21_54_PM_lltovo.png" },
+    { title: "ZED pluse kennel ", category: "Reels", thumb: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678505/GuestDj_1080x1350_cwi1bz.jpg" },
+    { title: "Map Animation", category: "Motion Graphics", thumb: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678505/ChatGPT_Image_Apr_27_2026_01_18_30_PM_uv93rw.png" }
   ];
   const services = [
     {
       title: "Motion Graphics",
-      image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1200&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678992/ChatGPT_Image_Apr_27_2026_01_25_05_PM_ojgeqs.png"
     },
     {
       title: "Video Editing",
-      image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop"
-    },
-    {
-      title: "VFX & Compositing",
-      image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92eee?q=80&w=1200&auto=format&fit=crop"
-    },
-    {
-      title: "YouTube Story Edit",
-      image: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=1200&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678391/34b8ab2c-c7a6-4cc1-bb3f-c64b764a7971_f0juzk.jpg"
     },
     {
       title: "Ad Creatives",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778679000/ChatGPT_Image_Apr_27_2026_11_23_39_AM_swbho7.png"
     },
     {
-      title: "AI Video Workflows",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop"
+      title: "AI Ads",
+      image: "https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778679449/ChatGPT_Image_Apr_27_2026_10_28_20_AM_pyhghq.png"
     }
   ];
 
@@ -124,7 +116,7 @@ function Home() {
         <div className="split-right">
           <div ref={orbRef} className="hero-3d-orb">
             <img
-              src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1200&auto=format&fit=crop"
+              src="https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678391/34b8ab2c-c7a6-4cc1-bb3f-c64b764a7971_f0juzk.jpg"
               alt="3D showcase"
             />
           </div>
@@ -184,7 +176,7 @@ function Home() {
         <article className="glass card premium-card about-card-grid">
           <img
             className="about-image"
-            src="https://images.unsplash.com/photo-1521714161819-15534968fc5f?q=80&w=1200&auto=format&fit=crop"
+            src="https://res.cloudinary.com/di5dyvtmq/image/upload/q_auto/f_auto/v1778678391/34b8ab2c-c7a6-4cc1-bb3f-c64b764a7971_f0juzk.jpg"
             alt="Harsh creative workspace"
             loading="lazy"
           />
