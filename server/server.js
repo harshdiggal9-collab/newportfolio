@@ -12,10 +12,10 @@ import testimonialRoutes from "./routes/testimonialRoutes.js";
 import showcaseRoutes from "./routes/showcaseRoutes.js";
 import clientRoutes from "./routes/clientRoutes.js";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
-
+import cors from "cors";
 await connectDB();
 await seedAdmin();
-
+app.use(cors())
 const app = express();
 app.use(express.json({ limit: "10mb" }));
 app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
