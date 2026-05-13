@@ -24,7 +24,11 @@ app.use(express.json({ limit: "10mb" }));
 
 app.use(
   cors({
-    origin: "*",
+    origin: [
+      "https://editsbyharsh.vercel.app",
+      "http://localhost:5173",
+    ],
+    credentials: true,
   })
 );
 
